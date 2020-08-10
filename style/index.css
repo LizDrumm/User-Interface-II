@@ -40,7 +40,6 @@ time, mark, audio, video {
 
     header{
         background:#36454F;
-
     }
 
     h1{
@@ -50,7 +49,6 @@ time, mark, audio, video {
         text-align: center;
         padding:2%;
         color:white;
-    
     }
 
     .nav{
@@ -75,7 +73,6 @@ time, mark, audio, video {
 
     .why{
         text-align:center;
-        font-size: 1.5rem;
         width:50%;
         margin: 0 auto;
         padding: 1%;
