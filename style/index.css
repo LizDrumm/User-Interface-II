@@ -121,7 +121,7 @@ time, mark, audio, video {
 
 
     footer{
-        background-color:#FFE5B4;
+        background-color:cornflowerblue;
         padding-bottom: 3%;
         text-align:center;   
         
@@ -129,13 +129,17 @@ time, mark, audio, video {
 
     .contact{
         text-decoration: none;
-        color:pink;
+        color:white;
         background:#36454F;
         margin: 0 auto;
         width:60%;
         line-height: 4;
         margin-bottom:0;
-    
+        padding: 1%;
+    }
+
+    .insta, .github{
+        margin:1%;
     }
 
  /*media queries */
@@ -189,7 +193,10 @@ time, mark, audio, video {
         margin-bottom: 2%;
         width: 35%;
         height: 20vh;
+    }
 
+    .pics p{
+        width: 80%;
     }
 
     .socialmedia{
