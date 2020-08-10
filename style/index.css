@@ -1,1 +1,207 @@
 /* Add CSS styling here */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+    *{
+        box-sizing:border-box;
+    }
+
+    html{
+        font-size:62.5%; 
+    }
+
+    body{ 
+        font-size:1.6rem;
+        font-family:'lato';
+        line-height: 1.5;
+    }
+
+    header{
+        background:#36454F;
+    }
+
+    h1{
+        font-family:'lato';
+        font-weight: bold;
+        font-size: 6rem;
+        text-align: center;
+        padding:2%;
+        color:white;
+    }
+
+    .nav{
+        display:flex;
+        justify-content: center;
+    }
+
+    .nav a{
+        border: 1px solid white;
+            text-decoration: none;
+            width:10%;
+            text-align: center;
+            background-color:pink;
+    }
+
+    h2{
+        text-align:center;
+        font-size: 3rem;
+        padding:1%; 
+        color:white;
+    } 
+
+    .why{
+        text-align:center;
+        width:50%;
+        margin: 0 auto;
+        padding: 1%;
+        color:white;
+    }
+
+    .linktoprojects{
+    background-color:cornflowerblue;
+    margin: 2% auto;
+    border: 3px dotted white;
+    width: 10%;
+    text-align:center;
+    }
+
+    .toppic{
+        height:40vh;
+        background-image: url(https://images.unsplash.com/photo-1571413666114-1e5d1f2bad15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80);
+        background-size: cover;
+        background-position:center bottom;
+        width:100%;
+    }
+
+    .pics{
+        display:flex;
+        justify-content: flex-start;
+        width:100%;
+        background:white;
+    }
+
+    .pics p{
+        text-align:center;
+        margin: 0 auto;
+        padding-top: 5%; 
+    }
+
+    .pics img{
+        width: 10%; 
+        height: 25vh;
+        padding: 0;
+        display:flex;
+    
+    }
+
+
+    footer{
+        background-color:cornflowerblue;
+        padding-bottom: 3%;
+        text-align:center;   
+        
+    }
+
+    .contact{
+        text-decoration: none;
+        color:white;
+        background:#36454F;
+        margin: 0 auto;
+        width:60%;
+        line-height: 4;
+        margin-bottom:0;
+        padding: 1%;
+    }
+
+    .insta, .github{
+        margin:1%;
+    }
+
+ /*media queries */
+
+ @media(max-width:800px){
+
+.toppic{
+    height:25vh;
+}
+.linktoprojects{
+    width:15%;
+}
+
+.pics p{
+    width:35%;
+    margin-bottom: 1%;
+    padding: 2%;
+}
+
+.pics img{
+    width:15%;
+}
+ }
+
+ @media(max-width:500px){
+
+    .nav{
+        flex-direction:column;
+          align-items:center;
+    }
+
+    .nav a {
+        width:20%;
+    }
+    .why{
+        width:70%;
+        margin-bottom: 2%;
+    }
+
+    .linktoprojects{
+        display:none;
+    }
+
+  .pics{
+        flex-wrap:wrap;
+       justify-content: center;
+      }
+    
+    .pics img{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 35%;
+        height: 20vh;
+    }
+
+    .pics p{
+        width: 80%;
+    }
+
+    .socialmedia{
+        display:none;
+    }
+
+    .contact{
+        line-height: 6;
+    }
+
+ }
