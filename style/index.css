@@ -42,13 +42,16 @@ time, mark, audio, video {
         background:#36454F;
     }
 
+    h1, h2, .why{
+        color:white;
+        text-align: center;
+    }
+
     h1{
         font-family:'lato';
         font-weight: bold;
         font-size: 6rem;
-        text-align: center;
         padding:2%;
-        color:white;
     }
 
     .nav{
@@ -65,18 +68,14 @@ time, mark, audio, video {
     }
 
     h2{
-        text-align:center;
         font-size: 3rem;
         padding:1%; 
-        color:white;
     } 
 
     .why{
-        text-align:center;
         width:50%;
         margin: 0 auto;
         padding: 1%;
-        color:white;
     }
 
     .linktoprojects{
@@ -149,7 +148,6 @@ time, mark, audio, video {
 .linktoprojects{
     width:15%;
 }
-
 .pics p{
     width:45%;
     margin-bottom: 1%;
